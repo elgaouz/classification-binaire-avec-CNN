@@ -26,20 +26,6 @@ Ce projet est un TP visant à se familiariser avec les réseaux de neurones conv
 - Un modèle de base a été créé et amélioré avec des techniques comme le pooling et l'augmentation des données
 - L'augmentation des données a aidé à réduire l'overfitting et à améliorer la généralisation du modèle
 - L'entraînement du modèle a été évalué via les courbes de perte et d'accuracy
-
-## Exécution
-1. Installer les dépendances :
-   ```bash
-   pip install tensorflow matplotlib numpy pandas
-   ```
-2. Lancer l'entraînement du modèle :
-   ```python
-   python train.py
-   ```
-3. Tester une image personnalisée :
-   ```python
-   python predict.py --image path/to/image.jpg
-   ```
  
 
 Ce projet est une introduction aux CNN et peut être étendu à la classification multi-classes ou à des architectures plus avancées comme ResNet ou EfficientNet.
